@@ -1,0 +1,25 @@
+.event-grid {
+	display: grid;
+	grid-template: auto auto/ 20% 20% 20% 20% 20%;
+	grid-gap: 10px;
+	padding: 10px;
+    list-style-type:none;
+}
+
+.draggable {
+	font-family: 'Fredoka One', cursive;
+}
+
+.draggable, .droppable.draggable-dropzone--occupied{
+	width: 200px; 
+	height: 60px; 
+}
+
+.droppable{
+	width: 200px; 
+	height: 60px;
+	border: solid;
+	display: flex;
+    text-align: center;
+    display: inline-block;
+}

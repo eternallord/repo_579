@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- ADDING JS AND CSS VIA EXTERNAL FILES -->
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.12/lib/draggable.bundle.js"></script>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap" rel="stylesheet"> 
+    <script defer src="js/test.js"></script>
+
+  </head>
+  <body>
+    
+
+
+    <div class = 'guidance'>
+      Add your Events here
+      <div id = 'input-block'>
+        <textarea id="input-event">
+          Input your events here.
+        </textarea>
+      </div>
+
+      <div>
+        <input type="color" id="pc" name="pc"
+               value="#e66465">
+        <label for="pc">Pick a color for your event</label>
+      </div>
+
+      <div class="button_container"></div>
+        <button class = 'btn' id = 'add-event'><span>Add Event </span></button>
+      </div>
+    </div>
+
+    <ul class="event-grid">
+    </ul>
+
+    <div class="button_container"></div>
+      <button class = 'btn' id = 'create-cal'><span>Create Calender! </span></button>
+    </div>
+
+    </br>
+
+    <div class="button_container"></div>
+      <button class = 'btn' id = 'del-cal'><span>Delete Calender!</span></button>
+    </div>
+
+    <ul class="weekdays">
+      <li>Mo</li>
+      <li>Tu</li>
+      <li>We</li>
+      <li>Th</li>
+      <li>Fr</li>
+      <li>Sa</li>
+      <li>Su</li>
+    </ul>
+    
+    <ul class="days">
+    </ul>
+
+  </body>
+</html>
